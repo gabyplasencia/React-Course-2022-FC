@@ -1,0 +1,15 @@
+.nav, .nav__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.nav__list {
+    list-style: none;
+    gap: 0.8rem;
+}
+
+.logo {
+    width: 50px;
+    aspect-ratio: 1;
+}
