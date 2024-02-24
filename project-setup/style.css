@@ -1,0 +1,74 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter, sans-serif;
+    color: #FFFFFF;
+    background-color: #282D35;
+    min-height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.8rem 1.5rem;
+    background-color: #21222A;
+}
+
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    color: #61DAFB;
+    font-size: 1.5rem;
+    gap: 0.2rem;
+    letter-spacing: -0.05rem;
+}
+
+.logo {
+    height: 29px;
+    aspect-ratio: 1;
+}
+
+.session-title {
+    font-size: 1rem;
+    color: #DEEBF8;
+    font-weight: 600;
+}
+
+.container {
+    text-align: left;
+    padding-block:  1.8rem;
+    padding-left: 1.8rem;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: right 75%;
+}
+
+.title {
+    font-weight: 700;
+    letter-spacing: -0.05rem;
+    font-size: 2.3rem;
+    margin-bottom: 2rem;
+}
+
+.facts-list {
+    font-size: 1rem;
+    margin-left: 2rem;
+    list-style: none;
+}
+
+.facts-list > li{
+    margin-bottom: 1rem;
+    color: #DEEBF8;
+}
+
+li::before {
+    content: "•"; /* Insert content that looks like bullets */
+    padding-right: 0.8rem;
+    color: #61DAFB; /* Or a color you prefer */
+}
