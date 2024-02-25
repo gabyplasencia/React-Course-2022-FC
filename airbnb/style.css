@@ -73,10 +73,10 @@ body {
     height: 18rem;
     width: 13rem;
     border-radius: 11px;
-    background-image: url(../images/katie-zaferes.png);
-    background-size: cover;
+}
+
+.wrapper-photo {
     position: relative;
-    
 }
 
 .status {
